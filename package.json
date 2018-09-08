@@ -1,0 +1,47 @@
+{
+    "name": "@mjeightyfive/eslint-config",
+    "version": "0.0.1",
+    "description": "eslint config",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint . --config=.eslintrc.json",
+        "test": "npm run lint && jest ./tests/**.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@gitlab.com/mjeightyfive/eslint-config.git"
+    },
+    "keywords": [
+        "lint",
+        "eslint"
+    ],
+    "author": "Marcin <mjeightyfive@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://gitlab.com/mjeightyfive/eslint-config/issues"
+    },
+    "homepage": "https://gitlab.com/mjeightyfive/eslint-config#readme",
+    "peerDependencies": {
+        "eslint": ">= 5"
+    },
+    "devDependencies": {
+        "@babel/core": "7.0.0",
+        "@babel/preset-env": "7.0.0",
+        "babel-core": "7.0.0-bridge.0",
+        "babel-eslint": "9.0.0",
+        "babel-jest": "23.4.2",
+        "eslint": "5.5.0",
+        "eslint-config-airbnb": "17.1.0",
+        "eslint-config-prettier": "3.0.1",
+        "eslint-config-react-app": "2.1.0",
+        "eslint-plugin-flowtype": "2.50.0",
+        "eslint-plugin-import": "2.14.0",
+        "eslint-plugin-jsx-a11y": "6.1.1",
+        "eslint-plugin-node": "7.0.1",
+        "eslint-plugin-prettier": "2.6.2",
+        "eslint-plugin-promise": "4.0.1",
+        "eslint-plugin-react": "7.11.1",
+        "jest": "23.5.0",
+        "regenerator-runtime": "0.12.1"
+    }
+}
