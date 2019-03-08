@@ -7,6 +7,6 @@ test('load config in eslint to validate all rule syntax is correct', () => {
         configFile: '.eslintrc.json'
     });
 
-    const code = 'const foo = 1;\nconst bar = function() {};\nbar(foo);\n';
+    const code = 'const foo = 1;\nconst bar = function() {};\nbar(foo);\n(async () => {})();\n';
     expect(cli.executeOnText(code).errorCount).toBe(0);
 });
