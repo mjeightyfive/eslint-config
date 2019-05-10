@@ -30,6 +30,10 @@
             "before": true,
             "after": true
         }],
+        "key-spacing": ["error", {
+            "afterColon": true,
+            "beforeColon": false
+        }],
         "space-before-function-paren": ["error", {
             "anonymous": "never",
             "named": "never",
