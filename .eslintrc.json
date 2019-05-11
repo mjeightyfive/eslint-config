@@ -25,7 +25,6 @@
         "import/extensions": ["error", "always", {
             "ignorePackages": true
         }],
-        "arrow-body-style": ["error", "always"],
         "keyword-spacing": ["error", {
             "before": true,
             "after": true
