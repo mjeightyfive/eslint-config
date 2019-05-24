@@ -47,7 +47,7 @@
         }],
         "func-names": ["off", "never"],
         "react/jsx-filename-extension": ["error", {
-            "extensions": [".js", ".jsx"]
+            "extensions": [".js", ".ts", ".jsx", ".tsx"]
         }],
         "react/jsx-indent": ["error", 4],
         "react/jsx-indent-props": ["error", 4],
