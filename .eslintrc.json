@@ -16,7 +16,7 @@
         "window": false
     },
     "extends": ["airbnb", "react-app", "prettier"],
-    "plugins": ["prettier", "import", "node", "promise"],
+    "plugins": ["prettier", "import", "node", "promise", "react-hooks"],
     "rules": {
         "semi": ["error", "always"],
         "comma-dangle": ["error", "never"],
@@ -47,13 +47,10 @@
         }],
         "func-names": ["off", "never"],
         "react/jsx-filename-extension": ["error", {
-            "extensions": [".js", ".ts", ".jsx", ".tsx"]
+            "extensions": [".js", ".jsx"]
         }],
         "react/jsx-indent": ["error", 4],
         "react/jsx-indent-props": ["error", 4],
-        "react/prefer-stateless-function": ["off", {
-            "ignorePureComponents": true
-        }],
         "react/forbid-prop-types": [0, {
             "forbid": ["object"]
         }],
@@ -61,6 +58,8 @@
         "react/jsx-one-expression-per-line": ["off", {
             "allow": "single-child"
         }],
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
         "jsx-a11y/no-static-element-interactions": 0,
         "jsx-a11y/img-has-alt": [0, "Foo"],
         "jsx-a11y/href-no-hash": "off",

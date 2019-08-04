@@ -22,34 +22,34 @@
     },
     "homepage": "https://gitlab.com/mjeightyfive/eslint-config#readme",
     "peerDependencies": {
-        "eslint": ">= 5"
+        "eslint": ">=5"
     },
     "dependencies": {
-        "@typescript-eslint/eslint-plugin": "1.9.0",
-        "@typescript-eslint/parser": "1.9.0",
+        "@typescript-eslint/eslint-plugin": "1.13.0",
+        "@typescript-eslint/parser": "1.13.0",
         "eslint": "5.16.0",
-        "eslint-config-airbnb": "17.1.0",
-        "eslint-config-prettier": "4.3.0",
+        "eslint-config-airbnb": "17.1.1",
+        "eslint-config-prettier": "6.0.0",
         "eslint-config-react-app": "4.0.1",
-        "eslint-plugin-flowtype": "2.50.3",
-        "eslint-plugin-import": "2.17.2",
-        "eslint-plugin-jsx-a11y": "6.2.1",
-        "eslint-plugin-node": "9.0.1",
+        "eslint-plugin-flowtype": "3.13.0",
+        "eslint-plugin-import": "2.18.2",
+        "eslint-plugin-jsx-a11y": "6.2.3",
+        "eslint-plugin-node": "9.1.0",
         "eslint-plugin-prettier": "3.1.0",
-        "eslint-plugin-promise": "4.1.1",
-        "eslint-plugin-react": "7.13.0",
-        "eslint-plugin-react-hooks": "1.6.0",
-        "prettier": "1.17.1",
+        "eslint-plugin-promise": "4.2.1",
+        "eslint-plugin-react": "7.14.3",
+        "eslint-plugin-react-hooks": "1.6.1",
+        "prettier": "1.18.2",
         "react": "16.8.6",
-        "typescript": "3.4.5"
+        "typescript": "3.5.3"
     },
     "devDependencies": {
-        "babel-eslint": "10.0.1",
-        "@babel/core": "7.4.4",
-        "@babel/preset-env": "7.4.4",
+        "babel-eslint": "10.0.2",
+        "@babel/core": "7.5.5",
+        "@babel/preset-env": "7.5.5",
         "babel-core": "7.0.0-bridge.0",
         "babel-jest": "24.8.0",
         "jest": "24.8.0",
-        "regenerator-runtime": "0.13.2"
+        "regenerator-runtime": "0.13.3"
     }
 }
