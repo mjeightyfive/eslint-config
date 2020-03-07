@@ -6,7 +6,8 @@
     "scripts": {
         "version": "./node_modules/conventional-changelog-cli/cli.js -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
         "lint": "eslint . --config=.eslintrc.js",
-        "test": "npm run lint && jest ./tests/**.js"
+        "test": "npm run lint && jest ./tests/**.js",
+        "release": "np"
     },
     "repository": {
         "type": "git",
@@ -46,6 +47,7 @@
         "eslint-plugin-react": "7.19.0",
         "eslint-plugin-react-hooks": "1.7.0",
         "jest": "25.1.0",
+        "np": "6.2.0",
         "prettier": "1.19.1",
         "react": "16.13.0",
         "tsutils": "3.17.1",
