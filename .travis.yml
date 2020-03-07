@@ -1,18 +1,17 @@
 language: node_js
 node_js:
-    - '10'
-    - '12'
+- '10'
+- '12'
 cache:
-    directories:
-        - node_modules
+  directories:
+  - node_modules
 script:
-    - npm run lint
-    - npm t
+- npm run lint
+- npm t
 deploy:
-    provider: npm
-    email: mjeightyfive@gmail.com
-    api_key:
-        secure: R99xoGPQt2hRSfR53SCbN0WrLvydSZ5nKNRyo/xVUQHTlUKrscxzrV9/bvtAHKHy9hfjwIX88zTtQ+CzcKgslVpP3d3WPiVOJywBEEKFZH4TpKYweov9P40F8+QRlPL2+un9hfh1nXkzk44t9/sosXIGB9iKACixiYwkKTWtdjCQWIXQPB2NjhGF5WuQ1CQWKevaz0o2pYWtx5wBYwEUOHJbeapw2U1BdTxVwN7FwSxANvzyPlpcTRfZla1kK/uedecImktVr1fwkN5clWFPXpOrLpVbx/Q79tU91t+BZ61sst2wU8a5lFw+CFrLxv/0x16GsBhZpcbQ+ExNQuONjeMSHnLZnF62yM0jD4ClC2xIS/o/QBN8cNNlZ+JFWWL1nV5sPQUGd1Oo6McFVbFIyVq+omPG8RHnnl14oB00bobFYjK8S893ikfpIhhJQxzcg9THPQmN1cZP5n58EdCcEMixv3QxxZ/4xnLnknxDIBCQyTrYdPddlxlGoDDfcw22Fkg2m8WvxsS9tWzm3ZaecyjOsicCYhwq4N89+oDG1WPcgO3SwLtcfDigBT8kdx5jz3TvKICZaAJ6dpxtzGtBxSwkj3yvTLGvSJX2TUREooltJlurBsdtltRZq5qBvQVKZwpWucU3kiN2uluq32uHgDXFqOTFa7gATpM8iSBUkkc=
-    on:
-        branch: master
-        repo: mjeightyfive/eslint-config
+  provider: npm
+  email: mjeightyfive@gmail.com
+  api_key:
+    secure: pP/43en+x8lpVywB4MhH3/EuMO8V62Qk69KOiI/pM6INzopguKOFJVPfAt9GTtqBhZAR8GB2W484YRaGfqTtqOTpwlyVT0PC1OPEVwXzF/bCIvVdUlicL+hf1NdRSBpC9vtT2+l26pLjyRnqWKFwEefFNUHEFIqKNqY/EsqPIWjlpmMowPw/Wy/7EtG7cVJ702LZAGJyliRIHJ/RCF+j+h+EsZh8NAPecDUeYPkCYbJqAxyNtnNDFiHopSureOGGd2GCvLr0ydrbiWP4IX8mWQTP5GKSQROEiGnubstPKp631+M7mdWwgRb7o34p+6FxqErng6OggAf5hfZ3rxquaUHC6dD24awhD1dOvN5ZykJ087Rx4QDdJ2TakG7E0l2GBjsoNXSs8YUTg2GhAlExrgnOR9qSm+xKgcqpM/qS8qGwGBm/+cdb5rsN09CT1uj4FscP2FJmyAb9YFEI24Ms2oZzZfBF5ITFiTq5UzMBI2ZBVw/CPvnvkFa2FTjJGfoNdrrHVorBqPtU+yyDC9p1/S7i5jFDkN9RcmDdTN7FsR42oBduoclr0UVpC+p1i7P1jTkUeVPFYhZik4NoLiQ3KCqUcBt6FH2gfmNIxlma0ydf9EQTGtzPeVhtJoxw0JHUxVELnpsZ0a6ij4YBoafZrhf71VaTmwYC/hzeQBWlJaE=
+  on:
+    repo: mjeightyfive/eslint-config
