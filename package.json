@@ -1,10 +1,12 @@
 {
     "name": "@mjeightyfive/eslint-config",
-    "version": "0.0.13",
+    "version": "0.0.23",
     "description": "eslint config",
     "main": "index.js",
     "scripts": {
-        "lint": "eslint . --config=.eslintrc.json",
+        "preversion": "npm t",
+        "version": "auto-changelog && git add CHANGELOG.md",
+        "lint": "eslint . --config=.eslintrc.js",
         "test": "npm run lint && jest ./tests/**.js"
     },
     "repository": {
@@ -24,32 +26,31 @@
     "peerDependencies": {
         "eslint": ">=6"
     },
-    "dependencies": {
-        "@typescript-eslint/eslint-plugin": "2.3.2",
-        "@typescript-eslint/parser": "2.3.2",
-        "eslint": "5.16.0",
-        "eslint-config-airbnb": "18.0.1",
-        "eslint-config-prettier": "6.4.0",
-        "eslint-config-react-app": "5.0.2",
-        "eslint-plugin-flowtype": "4.3.0",
-        "eslint-plugin-import": "2.18.2",
-        "eslint-plugin-jsx-a11y": "6.2.3",
-        "eslint-plugin-node": "10.0.0",
-        "eslint-plugin-prettier": "3.1.1",
-        "eslint-plugin-promise": "4.2.1",
-        "eslint-plugin-react": "7.16.0",
-        "eslint-plugin-react-hooks": "2.1.2",
-        "prettier": "1.18.2",
-        "react": "16.10.2",
-        "typescript": "3.6.3"
-    },
+    "dependencies": {},
     "devDependencies": {
-        "babel-eslint": "10.0.3",
-        "@babel/core": "7.6.2",
-        "@babel/preset-env": "7.6.2",
-        "babel-core": "7.0.0-bridge.0",
-        "babel-jest": "24.9.0",
-        "jest": "24.9.0",
-        "regenerator-runtime": "0.13.3"
+        "@babel/preset-env": "7.8.7",
+        "@typescript-eslint/eslint-plugin": "2.22.0",
+        "@typescript-eslint/parser": "2.22.0",
+        "auto-changelog": "1.16.2",
+        "babel-eslint": "10.1.0",
+        "eslint": "6.8.0",
+        "eslint-config-airbnb": "18.0.1",
+        "eslint-config-prettier": "6.10.0",
+        "eslint-config-react-app": "5.2.0",
+        "eslint-plugin-flowtype": "3.13.0",
+        "eslint-plugin-import": "2.20.1",
+        "eslint-plugin-json": "2.1.0",
+        "eslint-plugin-jsx-a11y": "6.2.3",
+        "eslint-plugin-node": "11.0.0",
+        "eslint-plugin-prettier": "3.1.2",
+        "eslint-plugin-promise": "4.2.1",
+        "eslint-plugin-react": "7.19.0",
+        "eslint-plugin-react-hooks": "1.7.0",
+        "jest": "25.1.0",
+        "np": "6.2.0",
+        "prettier": "1.19.1",
+        "react": "16.13.0",
+        "tsutils": "3.17.1",
+        "typescript": "3.7.0-beta"
     }
 }
