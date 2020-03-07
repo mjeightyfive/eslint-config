@@ -14,5 +14,5 @@ deploy:
   api_key:
     secure: pP/43en+x8lpVywB4MhH3/EuMO8V62Qk69KOiI/pM6INzopguKOFJVPfAt9GTtqBhZAR8GB2W484YRaGfqTtqOTpwlyVT0PC1OPEVwXzF/bCIvVdUlicL+hf1NdRSBpC9vtT2+l26pLjyRnqWKFwEefFNUHEFIqKNqY/EsqPIWjlpmMowPw/Wy/7EtG7cVJ702LZAGJyliRIHJ/RCF+j+h+EsZh8NAPecDUeYPkCYbJqAxyNtnNDFiHopSureOGGd2GCvLr0ydrbiWP4IX8mWQTP5GKSQROEiGnubstPKp631+M7mdWwgRb7o34p+6FxqErng6OggAf5hfZ3rxquaUHC6dD24awhD1dOvN5ZykJ087Rx4QDdJ2TakG7E0l2GBjsoNXSs8YUTg2GhAlExrgnOR9qSm+xKgcqpM/qS8qGwGBm/+cdb5rsN09CT1uj4FscP2FJmyAb9YFEI24Ms2oZzZfBF5ITFiTq5UzMBI2ZBVw/CPvnvkFa2FTjJGfoNdrrHVorBqPtU+yyDC9p1/S7i5jFDkN9RcmDdTN7FsR42oBduoclr0UVpC+p1i7P1jTkUeVPFYhZik4NoLiQ3KCqUcBt6FH2gfmNIxlma0ydf9EQTGtzPeVhtJoxw0JHUxVELnpsZ0a6ij4YBoafZrhf71VaTmwYC/hzeQBWlJaE=
   on:
-    tags: true
+    branch: master
     repo: mjeightyfive/eslint-config
