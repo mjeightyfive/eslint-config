@@ -4,6 +4,7 @@
     "description": "eslint config",
     "main": "index.js",
     "scripts": {
+        "version": "./node_modules/conventional-changelog-cli/cli.js -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
         "lint": "eslint . --config=.eslintrc.js",
         "test": "npm run lint && jest ./tests/**.js"
     },
@@ -30,6 +31,7 @@
         "@typescript-eslint/eslint-plugin": "2.22.0",
         "@typescript-eslint/parser": "2.22.0",
         "babel-eslint": "10.1.0",
+        "conventional-changelog-cli": "2.0.31",
         "eslint": "6.8.0",
         "eslint-config-airbnb": "18.0.1",
         "eslint-config-prettier": "6.10.0",

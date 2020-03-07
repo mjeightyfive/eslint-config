@@ -1,18 +1,18 @@
 language: node_js
 node_js:
-- '10'
-- '12'
+    - '10'
+    - '12'
 cache:
-  directories:
-  - node_modules
+    directories:
+        - node_modules
 script:
-- npm run lint
-- npm t
+    - npm run lint
+    - npm t
 deploy:
-  provider: npm
-  email: $NPM_EMAIL
-  api_key: $NPM_API_TOKEN
-  on:
-    tags: true
-    branch: master
-    repo: mjeightyfive/eslint-config
+    provider: npm
+    email: $NPM_EMAIL
+    api_key: $NPM_API_TOKEN
+    on:
+        tags: true
+        branch: master
+        repo: mjeightyfive/eslint-config
