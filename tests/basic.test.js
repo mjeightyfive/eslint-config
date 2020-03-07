@@ -1,4 +1,4 @@
-import config from '../.eslintrc.json';
+import config from '../.eslintrc.js';
 
 test('test basic properties of config', () => {
     expect(isObject(config.parserOptions)).toBe(true);
