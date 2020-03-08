@@ -1,72 +1,72 @@
 {
-    "name": "@mjeightyfive/eslint-config",
-    "version": "0.0.34",
-    "description": "eslint config",
-    "main": "index.js",
-    "scripts": {
-        "preversion": "npm t",
-        "version": "auto-changelog -p --commit-limit false --tag-prefix '' && git add CHANGELOG.md",
-        "lint": "eslint . --config=.eslintrc.js",
-        "test": "npm run lint && jest ./tests/**.js"
-    },
-    "dependencies": {},
-    "devDependencies": {
-        "@babel/preset-env": "7.8.7",
-        "@typescript-eslint/eslint-plugin": "2.22.0",
-        "@typescript-eslint/parser": "2.22.0",
-        "auto-changelog": "1.16.2",
-        "babel-eslint": "10.1.0",
-        "eslint": "6.8.0",
-        "eslint-config-airbnb": "18.0.1",
-        "eslint-config-prettier": "6.10.0",
-        "eslint-config-react-app": "5.2.0",
-        "eslint-plugin-flowtype": "3.13.0",
-        "eslint-plugin-import": "2.20.1",
-        "eslint-plugin-json": "2.1.0",
-        "eslint-plugin-jsx-a11y": "6.2.3",
-        "eslint-plugin-node": "11.0.0",
-        "eslint-plugin-prettier": "3.1.2",
-        "eslint-plugin-promise": "4.2.1",
-        "eslint-plugin-react": "7.19.0",
-        "eslint-plugin-react-hooks": "1.7.0",
-        "jest": "25.1.0",
-        "prettier": "1.19.1",
-        "react": "16.13.0",
-        "tsutils": "3.17.1",
-        "typescript": "3.7.0-beta"
-    },
-    "peerDependencies": {
-        "@typescript-eslint/eslint-plugin": "2.22.0",
-        "@typescript-eslint/parser": "2.22.0",
-        "babel-eslint": "10.1.0",
-        "eslint": "6.8.0",
-        "eslint-config-airbnb": "18.0.1",
-        "eslint-config-prettier": "6.10.0",
-        "eslint-config-react-app": "5.2.0",
-        "eslint-plugin-flowtype": "3.13.0",
-        "eslint-plugin-import": "2.20.1",
-        "eslint-plugin-json": "2.1.0",
-        "eslint-plugin-jsx-a11y": "6.2.3",
-        "eslint-plugin-node": "11.0.0",
-        "eslint-plugin-prettier": "3.1.2",
-        "eslint-plugin-promise": "4.2.1",
-        "eslint-plugin-react": "7.19.0",
-        "eslint-plugin-react-hooks": "1.7.0",
-        "prettier": "1.19.1",
-        "typescript": "3.7.0-beta"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/mjeightyfive/eslint-config.git"
-    },
-    "keywords": [
-        "lint",
-        "eslint"
-    ],
-    "author": "Marcin <mjeightyfive@gmail.com>",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/mjeightyfive/eslint-config/issues"
-    },
-    "homepage": "https://github.com/mjeightyfive/eslint-config#readme"
+  "name": "@mjeightyfive/eslint-config",
+  "version": "0.0.35",
+  "description": "eslint config",
+  "main": "index.js",
+  "scripts": {
+    "preversion": "npm t",
+    "version": "auto-changelog -p --commit-limit false --tag-prefix '' && git add CHANGELOG.md",
+    "lint": "eslint . --config=.eslintrc.js",
+    "test": "npm run lint && jest ./tests/**.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/preset-env": "7.8.7",
+    "@typescript-eslint/eslint-plugin": "2.22.0",
+    "@typescript-eslint/parser": "2.22.0",
+    "auto-changelog": "1.16.2",
+    "babel-eslint": "10.1.0",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-config-prettier": "6.10.0",
+    "eslint-config-react-app": "5.2.0",
+    "eslint-plugin-flowtype": "3.13.0",
+    "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-json": "2.1.0",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-node": "11.0.0",
+    "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-react": "7.19.0",
+    "eslint-plugin-react-hooks": "1.7.0",
+    "jest": "25.1.0",
+    "prettier": "1.19.1",
+    "react": "16.13.0",
+    "tsutils": "3.17.1",
+    "typescript": "3.7.0-beta"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "2.22.0",
+    "@typescript-eslint/parser": "2.22.0",
+    "babel-eslint": "10.1.0",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-config-prettier": "6.10.0",
+    "eslint-config-react-app": "5.2.0",
+    "eslint-plugin-flowtype": "3.13.0",
+    "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-json": "2.1.0",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-node": "11.0.0",
+    "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-react": "7.19.0",
+    "eslint-plugin-react-hooks": "1.7.0",
+    "prettier": "1.19.1",
+    "typescript": "3.7.0-beta"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mjeightyfive/eslint-config.git"
+  },
+  "keywords": [
+    "lint",
+    "eslint"
+  ],
+  "author": "Marcin <mjeightyfive@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mjeightyfive/eslint-config/issues"
+  },
+  "homepage": "https://github.com/mjeightyfive/eslint-config#readme"
 }
