@@ -12,6 +12,7 @@ deploy:
     provider: npm
     email: $NPM_EMAIL
     api_key: $NPM_API_TOKEN
+    body: Release Notes
     on:
         tags: true
         branch: master

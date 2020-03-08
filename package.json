@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "preversion": "npm t",
-        "version": "auto-changelog -p && git add CHANGELOG.md",
+        "version": "auto-changelog -p --commit-limit false --tag-prefix '' && git add CHANGELOG.md",
         "lint": "eslint . --config=.eslintrc.js",
         "test": "npm run lint && jest ./tests/**.js"
     },
