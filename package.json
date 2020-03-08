@@ -6,7 +6,7 @@
     "scripts": {
         "preversion": "npm t",
         "version": "auto-changelog -p --commit-limit false --tag-prefix '' && git add CHANGELOG.md",
-        "postversion": "git push --tags",
+        "postversion": "git push && git push --tags",
         "lint": "eslint . --config=.eslintrc.js",
         "test": "npm run lint && jest ./tests/**.js"
     },
