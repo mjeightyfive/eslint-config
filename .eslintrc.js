@@ -24,6 +24,7 @@ module.exports = {
         indent: ['error', 4, { SwitchCase: 1 }],
         'comma-dangle': ['error', 'never'],
         'import/extensions': ['error', 'always', { ignorePackages: true }],
+        'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
         'keyword-spacing': ['error', { before: true, after: true }],
         'key-spacing': ['error', { afterColon: true, beforeColon: false }],
         'space-before-function-paren': ['error', { anonymous: 'never', named: 'never', asyncArrow: 'always' }],
