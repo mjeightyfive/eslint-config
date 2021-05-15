@@ -1,4 +1,4 @@
-# @mjeightyfive/eslint-config [![Build Status](https://travis-ci.com/mjeightyfive/eslint-config-cli.svg?branch=master)](https://travis-ci.com/mjeightyfive/@mjeightyfive/eslint-config)
+# @mjeightyfive/eslint-config [![Build Status](https://travis-ci.com/mjeightyfive/eslint-config.svg?branch=master)](https://travis-ci.com/mjeightyfive/@mjeightyfive/eslint-config)
 
 > eslint config
 
