@@ -1,6 +1,6 @@
 import config from '../.eslintrc.js';
 
-test('test basic properties of config', () => {
+test('basic properties of config', () => {
     expect(isObject(config.parserOptions)).toBe(true);
     expect(isObject(config.env)).toBe(true);
     expect(isObject(config.globals)).toBe(true);

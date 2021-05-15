@@ -16,8 +16,8 @@ module.exports = {
         sourceType: 'module',
         ecmaFeatures: { jsx: true }
     },
-    extends: ['airbnb', 'react-app', 'prettier'],
-    plugins: ['prettier', 'json', 'import', 'node', 'promise', 'react-hooks', 'jsx-a11y'],
+    extends: ['airbnb', 'react-app', 'prettier', 'plugin:jest/recommended'],
+    plugins: ['prettier', 'json', 'import', 'node', 'promise', 'react-hooks', 'jsx-a11y', 'jest'],
     rules: {
         semi: ['error', 'always'],
         quotes: ['error', 'single', { avoidEscape: true, allowTemplateLiterals: true }],
