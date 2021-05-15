@@ -14,6 +14,7 @@
         "@babel/eslint-parser": "7.14.2",
         "@babel/preset-env": "7.14.2",
         "@typescript-eslint/eslint-plugin": "4.23.0",
+        "@typescript-eslint/eslint-plugin-tslint": "4.23.0",
         "@typescript-eslint/parser": "4.23.0",
         "auto-changelog": "2.2.1",
         "eslint": "7.12.1",
@@ -39,6 +40,7 @@
     "peerDependencies": {
         "@babel/eslint-parser": "^7.14.2",
         "@typescript-eslint/eslint-plugin": "^4.23.0",
+        "@typescript-eslint/eslint-plugin-tslint": "^4.23.0",
         "@typescript-eslint/parser": "^4.23.0",
         "eslint": "^7.12.1",
         "eslint-config-airbnb": "^18.2.1",
